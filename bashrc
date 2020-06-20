@@ -19,3 +19,4 @@
  alias df='df -hT'
  alias du='du -h'
  alias h='htop'
+ alias m='mysqltuner'
