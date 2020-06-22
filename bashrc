@@ -1,4 +1,6 @@
 # ~/.bashrc: executed by bash(1) for non-login shells.
+ulimit -HSn 65536
+echo never > /sys/kernel/mm/transparent_hugepage/enabled
 
 # Note: PS1 and umask are already set in /etc/profile. You should not
 # need this unless you want different defaults for root.
