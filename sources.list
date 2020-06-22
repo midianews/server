@@ -10,8 +10,8 @@ deb-src http://deb.debian.org/debian/ buster-updates main contrib non-free
 deb http://deb.debian.org/debian/ buster-backports main contrib non-free
 deb-src http://deb.debian.org/debian/ buster-backports main contrib non-free
 
-deb ttp://sfo1.mirrors.digitalocean.com/mariadb/repo/10.5/debian buster main
-deb-src http://sfo1.mirrors.digitalocean.com/mariadb/repo/10.5/debian buster main
+deb ttp://sfo1.mirrors.digitalocean.com/mariadb/repo/10.4/debian buster main
+deb-src http://sfo1.mirrors.digitalocean.com/mariadb/repo/10.4/debian buster main
 
 deb https://packages.sury.org/php/ buster main
 deb-src https://packages.sury.org/php/ buster main
