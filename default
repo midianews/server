@@ -5,7 +5,7 @@ add_header X-Cache $upstream_cache_status;
 server {
 	listen 80;
 	listen 443 ssl http2;
-	include snippets/snakeoil.conf;
+	include snakeoil.conf;
 	root /var/www/html/phpmyadmin;
 	index index.php;
 	server_name _;
