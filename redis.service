@@ -10,7 +10,7 @@ ExecStop=/bin/kill -s TERM $MAINPID
 TimeoutStopSec=0
 Restart=always
 User=redis
-Group=redis
+Group=www-data
 RuntimeDirectory=redis
 RuntimeDirectoryMode=2755
 
