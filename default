@@ -24,7 +24,7 @@ server {
 
 	#location / {try_files $uri $uri/ /index.php?$args;} 
 	location ~ \.php$ {
-		include snippets/fastcgi-php.conf;
+		include fastcgi-php.conf;
 		fastcgi_pass unix:/run/php/php7.4-fpm.sock;
                 fastcgi_cache CACHEZONE;
                 fastcgi_cache_valid 200 203 301 302 2s; #60m
